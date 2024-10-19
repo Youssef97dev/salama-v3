@@ -95,7 +95,7 @@ const Hero = () => {
         </Link>
       </div>
 
-      <div className="absolute w-full h-full flex flex-col lg:flex-row justify-end lg:justify-center items-center lg:items-end text-white text-sm md:text-lg lg:text-2xl gap-3 pb-5">
+      <div className="absolute w-full h-full flex flex-col lg:flex-row justify-end lg:justify-center items-center lg:items-end text-white text-base md:text-lg lg:text-2xl gap-3 pb-16 lg:pb-5">
         <Link
           href="https://www.sevenrooms.com/explore/lessalamamarrakech/reservations/create/search/"
           className="z-40 rounded-full bg-primary text-white px-3 py-1 w-fit lg:w-48 text-center hover:bg-black transition-all ease-linear"
