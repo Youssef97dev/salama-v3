@@ -90,7 +90,7 @@ const Hero = () => {
             alt="le salama 2"
             width={200}
             height={200}
-            className="cursor-pointer w-40  h-40 lg:w-full lg:h-full"
+            className="cursor-pointer w-48  h-48 lg:w-full lg:h-full"
           />
         </Link>
       </div>
