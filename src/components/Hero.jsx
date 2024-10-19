@@ -13,7 +13,7 @@ const Hero = () => {
     <div className="relative h-screen w-full ">
       {/* Image Background */}
       <Image
-        src="/assets/images/hero.jpg"
+        src="/assets/images/hero-8.jpg"
         alt="le salama main"
         width={1000}
         height={1000}
@@ -90,7 +90,7 @@ const Hero = () => {
             alt="le salama 2"
             width={200}
             height={200}
-            className="cursor-pointer w-48  h-48 lg:w-full lg:h-full"
+            className="cursor-pointer w-48 h-48 lg:w-full lg:h-full"
           />
         </Link>
       </div>
