@@ -62,26 +62,26 @@ const Hero = () => {
         </div>
       </div>
       <div className="z-40 absolute h-full w-full flex flex-col lg:flex-row justify-center items-center">
-        <div className="flex text-white w-full lg:hidden justify-center gap-3 mb-5">
+        <div className="flex text-white w-full lg:hidden justify-center items-center gap-3 mb-5">
           <Link
             href="https://www.instagram.com/lesalamamarrakech/"
             target="_blank"
             className="cursor-pointer"
           >
-            <BsInstagram size={18} />
+            <BsInstagram size={20} />
           </Link>
           <Link
             href="https://www.facebook.com/lesalamamarrakech/"
             target="_blank"
             className="cursor-pointer"
           >
-            <BsFacebook size={18} />
+            <BsFacebook size={20} />
           </Link>
           <Link href="#">
-            <img src="/assets/images/english.png" className="w-5 h-5" />
+            <img src="/assets/images/english.png" className="w-7 h-7" />
           </Link>
           <Link href="/fr">
-            <img src="/assets/images/france.png" className="w-5 h-5" />
+            <img src="/assets/images/france.png" className="w-7 h-7" />
           </Link>
         </div>
         <Link href="/">
@@ -90,7 +90,7 @@ const Hero = () => {
             alt="le salama 2"
             width={200}
             height={200}
-            className="cursor-pointer w-40  h-40 lg:w-full lg:h-full"
+            className="cursor-pointer w-48  h-48 lg:w-full lg:h-full"
           />
         </Link>
       </div>
