@@ -13,13 +13,13 @@ const Hero = () => {
     <div className="relative h-screen w-full ">
       {/* Image Background */}
       <Image
-        src="/assets/images/hero-8.jpg"
+        src="/assets/images/hero-11.jpg"
         alt="le salama main"
         width={1000}
         height={1000}
         className="absolute top-0 left-0 w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-[#000] h-screen mix-blend-multiply opacity-40"></div>
+      <div className="absolute inset-0 bg-[#000] h-screen mix-blend-multiply opacity-30"></div>
       {/* Hero Content */}
       <div className="hidden absolute text-white w-full lg:flex justify-end items-center pr-60 py-5 gap-3 z-50">
         <Link
